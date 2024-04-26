@@ -1,0 +1,397 @@
+@font-face {
+  font-family: "robot";
+  src: url(./assets/fonts/Roboto-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'din';
+  font-style: normal;
+  font-weight: normal;
+  src: local('DINPro-Bold'), url("./assets/fonts/DINPro-Bold_13934.woff") format('woff');
+  }
+
+
+@font-face {
+  font-family: pop;
+  src: url("./assets/fonts/Poppins-Regular.ttf");
+}
+
+@font-face {
+  font-family: Nunito;
+  src: url("./assets/fonts/Nunito-Regular.ttf");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body{
+  height: 100%;
+  width: 100%;
+  background-color: #fff;
+}
+
+
+#main{
+  overflow-x: hidden;
+}
+
+.rectangle {
+  width: 100%;
+  height: 221px;
+  background-color:#EAF2EA;
+  position: relative;
+  overflow: hidden;  
+  text-align: center;
+}
+
+.dot {
+  width: 184px;
+  height: 184px;
+  background-color: #CFEBCF;
+  border-radius: 50%;
+  position: absolute;
+  gap: 0px;
+  opacity: 0px;
+  
+}
+
+#dot-1{
+  bottom: 120px;
+  left: 50px;
+}
+
+#dot-2 {
+  bottom: 120px;
+  right: 0;
+}
+
+#dot-3 {
+  top: 120px;
+  left: 250px;
+}
+
+#dot-4 {
+  top: 120px;
+  right: 250px;
+}
+
+.rectangle h1 {
+  width: 810px;
+  height: 24px;
+  gap: 0px;
+  opacity: 0px;
+  color: #000000;
+  font-family: pop;
+  font-size: 32px;
+  font-weight: 350;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  position: absolute;
+  left: 350px;
+  top: 60px
+}
+
+
+#location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 130px;
+  left: 400px;
+  gap: 8px;
+}
+
+#sel-location {
+  width: 200px;
+  height: 54px;
+  padding: 4px 12px 4px 12px;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid #D4D4D4;
+  font-family: pop;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.005em;
+  text-align: center;
+
+
+}
+
+#search {
+  width: 474.92px;
+  height: 54px;
+  padding: 13px 10px 13px 10px;
+  gap: 105px;
+  border-radius: 10px;
+  border: 1px solid #D4D4D4;   
+  font-family: pop;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.5px;
+  text-align: left;
+}
+
+
+#section-2 {
+  width: 100%;
+  border-bottom: 1px solid #EDEDED 
+}
+
+
+#options {
+  width: 100%;
+  height: 72px;
+  border: 1px solid #EDEDED;
+  display: flex;
+  justify-content: center;
+  align-items: center;   
+  gap: 41px;
+}
+
+#options select {
+  background-color: #F3F3F3;
+  width: 148px;
+  height: 40px;
+  padding: 6px 13px 6px 13px;
+  border-radius: 7px;
+  opacity: 0px;
+  font-family: pop;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 22.4px;
+  text-align: center;
+  
+}
+
+#options select:nth-child(5) {
+  background-color: #DCEEDC;
+}
+
+#services {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: auto;
+  height: 45px;
+  gap: 16px;
+  margin: 4rem auto;
+  margin-right: 8rem;
+}
+
+#services div {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 19.36px;
+  letter-spacing: 0.5px;
+  text-align: center;
+  width: auto;
+  height: 45px;
+  padding: 15px 30px 15px 30px;
+  gap: 10px;
+  border-radius: 31px;
+  opacity: 0px;
+  background-color: #EAF2EA;
+
+}
+
+#card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+#card {
+  width: 356px;
+  height: auto;
+  padding: 29px 31px 26px 36px;
+  gap: 10px;
+  border-radius: 30px;
+  border: 1px solid #E3E3E3;
+  opacity: 0px;
+  background-color: #FFF7E2;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+#doc-container {
+  height: 150px;
+  width: 149px;
+  border-radius: 50%;
+  overflow: hidden;
+  object-fit: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 3.5rem;
+  position: relative;
+}
+
+#card #doc-img {
+  width: auto;
+  height: 150px;
+}
+
+#rating {
+  width: 70px;
+  height: 28px;
+  padding: 4px 12px 4px 12px;
+  gap: 12px;
+  border-radius: 17px;
+  opacity: 0px;
+  background-color: #0B0B0B;
+  color: #fff;
+  margin: 0 5rem 0 6rem;
+  font-family: Nunito;
+  position: absolute;
+  top: 160px;
+}
+
+.doc-name {
+  font-family: Nunito;
+  font-size: 32px;
+  font-weight: 700;
+  line-height: 28px;
+  letter-spacing: -0.01em;
+  width: 265px;
+  height: 28px;   
+  margin-top: 1rem;
+}
+
+#about {
+  width: auto;
+  height: 78px;
+  gap: 7px;
+}
+
+#about img {
+  width: 20px;
+  height: 20px;
+}
+
+#about h3 {
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+
+}
+
+.type-1 {
+  display: flex;
+  justify-content: center;
+  align-items:flex-start;
+  gap: 10px;
+  line-height: 20px;
+  margin-bottom: 12px;
+  margin: 12px auto;
+}
+
+#consultation {
+  width: 89px;
+  height: 57px;
+  gap: 8px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.type {
+  width: 136px;
+  height: 57px;
+  padding: 8px 8px 16px 8px;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid #3A643B;
+  opacity: 0px;
+  text-align: center;
+}
+
+.type h1 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: 120px;
+  height: 20px;
+  color: #3C3C3C;
+}
+
+.type h3 {
+  font-family: Nunito;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: left;
+  width: auto;
+  height: 20px;
+  color: #3A643B;
+  text-align: center;
+  margin: 1rem 1 rem;
+  
+}
+
+#profile-btn {
+  width: 284px;
+  height: 42px;
+  padding: 15px 78px 15px 78px;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid #3A643B;
+  opacity: 0px;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 12px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #3A643B;
+  transition: all 0.2s ease-in-out;
+}
+
+#book-btn {
+  width: 287px;
+  height: 53px;
+  padding: 15px 37px 15px 37px;
+  gap: 10px;
+  border-radius: 8px;
+  background-color: #3A643B;
+  font-family: Nunito;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: -0.01em;
+  text-align: center;
+  color: #fff;
+  transition: all 0.2s ease-in-out;
+}
+
+#book-btn:hover {
+  color: #000;
+  background-color: #CEE0D2; 
+  font-size: 1.375rem; 
+  cursor: pointer;
+}
+
+#profile-btn:hover {
+  color: #fff;
+  background-color: #0B0B0B; 
+  font-size: 1.375rem; 
+  cursor: pointer;
+
+}
