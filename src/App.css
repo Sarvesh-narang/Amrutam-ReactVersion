@@ -781,6 +781,9 @@ html, body{
   margin: 1rem auto 0;
 }
 
+
+
+
 .img-tub {
   width: 4.375rem;
   height: 4.375rem;
@@ -797,7 +800,7 @@ html, body{
  width: auto;
 }
 
-.rev-dtl h3{
+.rev-dtl p{
   opacity: 0.7;
   font-family: Nunito;
   font-size: 16px;

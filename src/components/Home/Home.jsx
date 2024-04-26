@@ -31,17 +31,17 @@ export default function Home() {
         <div id="main">    
             <div id="page-2">
                 <div id="profile">
-                    <div class="img-jar">
+                    <div className="img-jar">
                         <img src={DocImg} alt="Dr. Bruce Wills"/>
                     </div>
                     <div id="self-desc">
                         <h3>Dr. Bruce Willis</h3>
                         <h5>Gynecologist</h5>
                         <h6>4.2 
-                                <span class="stars" data-value="1">&#9733;</span>
-                                <span class="stars" data-value="2">&#9733;</span>
-                                <span class="stars" data-value="3">&#9733;</span>
-                                <span class="stars" data-value="4">&#9733;</span>
+                                <span className="stars" data-value="1">&#9733;</span>
+                                <span className="stars" data-value="2">&#9733;</span>
+                                <span className="stars" data-value="3">&#9733;</span>
+                                <span className="stars" data-value="4">&#9733;</span>
                         </h6>
                         
                     </div>
@@ -66,12 +66,12 @@ export default function Home() {
                         </div>    
                         <p>Hello I am Dr. Bruce Willis a Gynecologist in Sanjivni Hospital, Surat. Love to work with all my Hospital staff and seniour Doctors. Completed my graduation in Gynecologist medicine from the</p>
                         <div id="break">
-                            <div class="line"></div>
+                            <div className="line"></div>
                             <a href="./next.html">Read More</a>
                         </div>
                         <div id="language">
                             <h4>Language Spoken</h4>
-                            <div class="languages">
+                            <div className="languages">
                                 <h4>English</h4>
                                 <h4>Hindi</h4>
                                 <h4>Telugu</h4>
@@ -126,7 +126,7 @@ export default function Home() {
                             <h2>My Work Experience</h2>
                         </div>
                         <h2 id="exp-years">I HAVE BEEN IN PRACTICE FOR : 7+ YEARS</h2>
-                        <div class="finish-line"></div>
+                        <div className="finish-line"></div>
                         <div id="experience">
                             <div id="exp-1">
                                 <img src={Experience} alt=""/>
@@ -154,46 +154,46 @@ export default function Home() {
                         </div>
                         <div id="reviews">
                             <div id="review-1">
-                                <div class="rev-dtl">
-                                    <div class="img-tub">
+                                <div className="rev-dtl">
+                                    <div className="img-tub">
                                         <img src={Reviewer} alt=""/>
                                     </div>
-                                    <div class="rev-info">
+                                    <div className="rev-info">
                                         <h2>Alicent Hightower
-                                            <h3>Consulted for Skin care</h3>
+                                            <p>Consulted for Skin care</p>
                                         </h2>
                                     </div>
-                                    <h3 class="date">20 January 2023</h3>
+                                    <h3 className="date">20 January 2023</h3>
                                 </div>
-                                <div class="stars-2">
-                                    <span class="star" data-value="1">&#9733;</span>
-                                    <span class="star" data-value="2">&#9733;</span>
-                                    <span class="star" data-value="3">&#9733;</span>
-                                    <span class="star" data-value="4">&#9733;</span>
-                                    <span class="star" data-value="4">&#9733;</span>
+                                <div className="stars-2">
+                                    <span className="star" data-value="1">&#9733;</span>
+                                    <span className="star" data-value="2">&#9733;</span>
+                                    <span className="star" data-value="3">&#9733;</span>
+                                    <span className="star" data-value="4">&#9733;</span>
+                                    <span className="star" data-value="4">&#9733;</span>
                                 </div>
-                                <p class="para">Might be bit early to confirm but yes I can see noticeable difference in my hairfall. Will write again after using it for longer periods.</p>
+                                <p className="para">Might be bit early to confirm but yes I can see noticeable difference in my hairfall. Will write again after using it for longer periods.</p>
                             </div>
                             <div id="review-2">
-                                <div class="rev-dtl">
-                                    <div class="img-tub">
+                                <div className="rev-dtl">
+                                    <div className="img-tub">
                                         <img src={Reviewer} alt=""/>
                                     </div>
-                                    <div class="rev-info">
+                                    <div className="rev-info">
                                         <h2>Alicent Hightower
-                                            <h3>Consulted for Pregnancy</h3>
+                                            <p>Consulted for Pregnancy</p>
                                         </h2>
                                     </div>
-                                    <h3 class="date">20 January 2023</h3>
+                                    <h3 className="date">20 January 2023</h3>
                                 </div>
-                                <div class="stars-2">
-                                    <span class="star" data-value="1">&#9733;</span>
-                                    <span class="star" data-value="2">&#9733;</span>
-                                    <span class="star" data-value="3">&#9733;</span>
-                                    <span class="star" data-value="4">&#9733;</span>
-                                    <span class="star" data-value="4">&#9733;</span>
+                                <div className="stars-2">
+                                    <span className="star" data-value="1">&#9733;</span>
+                                    <span className="star" data-value="2">&#9733;</span>
+                                    <span className="star" data-value="3">&#9733;</span>
+                                    <span className="star" data-value="4">&#9733;</span>
+                                    <span className="star" data-value="4">&#9733;</span>
                                 </div>
-                                <p class="para">Might be bit early to confirm but yes I can see noticeable difference in my hairfall. Will write again after using it for longer periods.</p>
+                                <p className="para">Might be bit early to confirm but yes I can see noticeable difference in my hairfall. Will write again after using it for longer periods.</p>
                             </div>
                         </div>
                     </div>
@@ -204,22 +204,22 @@ export default function Home() {
                             <h1>Appointment Fee</h1>
                             <h2>Rs.699.00</h2>
                         </div>
-                        <div class="selection">
+                        <div className="selection">
                             <h1>Select your mode of session</h1>
                             <div id="line-break"></div>
                         </div>
                         <div id="modes">
-                            <div class="clinic mode">
+                            <div className="clinic mode">
                                 <h2>In-Clinic
                                     <h3>45 Mins</h3>
                                 </h2>
                             </div>
-                            <div class="video mode">
+                            <div className="video mode">
                                 <h2>Video
                                     <h3>45 Mins</h3>
                                 </h2>
                             </div>
-                            <div class="chat mode">
+                            <div className="chat mode">
                                 <h2>Chat
                                     <h3>10 Mins</h3>
                                 </h2>
@@ -234,24 +234,24 @@ export default function Home() {
                         </div>
                         <div id="timing">
                             <img src={ArrowOne} alt=""/>
-                            <div class="mon day">
+                            <div className="mon day">
                                 <h2>Mon, 10 Oct</h2>
                                 <h3>10 slots</h3>
                             </div>
-                            <div class="tue day">
+                            <div className="tue day">
                                 <h2>Tue, 11 Oct</h2>
                                 <h3>02 slots</h3>
                             </div>
-                            <div class="wed day">
+                            <div className="wed day">
                                 <h2>Wed, 12 Oct</h2>
                                 <h3>05 slots</h3>
                             </div>
                             <img src={ArrowTwo} alt=""/>
                         </div>
-                        <div class="quarter">
+                        <div className="quarter">
                             <h2>Morning</h2>
                         </div>
-                        <div class="hour">
+                        <div className="hour">
                             <h2>09:00 AM</h2>
                             <h2>09:30 AM</h2>
                             <h2>10:00 AM</h2>
@@ -259,10 +259,10 @@ export default function Home() {
                             <h2>10:45 AM</h2>
                             <h2 id="slc-hour">11:00 AM</h2>
                         </div>
-                        <div class="quarter">
+                        <div className="quarter">
                             <h2>Evening</h2>
                         </div>
-                        <div class="hour">
+                        <div className="hour">
                             <h2>04:00 PM</h2>
                             <h2>04:15 PM</h2>
                             <h2>04:30 PM</h2>
