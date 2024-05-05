@@ -8,4 +8,4 @@ Currently, two official plugins are available:
 - [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
 
 
-- I have the other webpage too from Task 1. You can see that page upon clicking the find doctors button in the header
+- I have the other webpage too from Task 1. You can see that page upon clicking the find doctors button in the header. 
